@@ -1,26 +1,46 @@
 // JavaScript Looping Exercise
 
 // 1. Output each item in the following Array to your console:
+console.log('Question 1');
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
+for (var i=0; i < livingRoom.length; i++){
+	var things = livingRoom[i];
+	console.log(things);
+}
 
 // 2. Using a loop, log numbers 22-33 in the console.
+console.log('Question 2');
+for (var i=22; i < 34; i++){
+	var numbers = i;
+	console.log(numbers);
+}
 
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
+console.log('Question 3');
+for (var i=75; i < 101; i+=5){
+	var numbers = i;
+	console.log(numbers);
+}
 
 // 4. Write a while loop that logs "This is how a professional loops." to the console 5 times.
 //     Use this as an example:
-//        var counter = 0;
-//        var num = 2;
-
-//        while (num < 1000) {
-//        num += num;
-//        counter++;
-//        }
-
-//        console.log(counter);
+console.log('Question 4');
+var num = 0;
+while (num < 5) {
+   console.log('This is how a professional loops.');
+   num++;
+}
 
 // 5. Write a conditional statement to find the largest of the numbers in the array provided.
-var largestNum = [-5, -2, -6, 0, -1]
+console.log('Question 5');
+var largestNum = [-5, -2, -6, 0, -1];
+for (var i = 0; i <= largestNum.length; i++){
+	var largest = 0;
+	if ( largestNum[i] > largest ){
+		largest = largestNum[i];		
+	}
+	console.log(largest);
+}
 
 // 6. Separately, use both a for loop and while loop to do the same thing.
 //     Print out the sentence "At home, I have _____ cats." Use the number from your counter to fill in the number.
