@@ -118,6 +118,7 @@ console.log('Rock, Paper, Scissors');
 //    If the random number is between .34 and .66, set the computer variable to "paper".
 //    If the random number is between .67 and 1, set the computer variable to "scissors". (Who the hell seriously chooses scissors first?)
 		console.log(computer);
+
 		if(computer <= 0.33){
 			computer = 'rock';
 		} else if ( (computer >= 0.34 ) && (computer <= 0.66) ){
@@ -125,6 +126,7 @@ console.log('Rock, Paper, Scissors');
 		} else {
 			computer = 'scissors';
 		}
+		
 		console.log('Computer chose ' + computer);
 		console.log('Human chose ' + human);
 
@@ -167,7 +169,6 @@ console.log('Rock, Paper, Scissors');
 		// }
 
 // 17. Give yourself a high five for completing your first javascript game!
-		console.log("*high five*");
 // 18. Use the game you made above and rework it using a switch statement.
 
 switch(human) {
@@ -215,6 +216,7 @@ switch(human) {
     break;
 }
 console.log(message);
+console.log("*high five*");
 
 // 19. What happens if your user enters something other than "rock", "paper", or "scissors?". Change your default case
 //     to print a snarky message to the console if the input doesn't match any of the options.
